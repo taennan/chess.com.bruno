@@ -1,6 +1,6 @@
 # chess.com.bruno
 
-A collection of [Bruno](bruno.com) requests for the [Chess.com](chess.com) public API
+A collection of [Bruno][bruno.com] requests for the [Chess.com][chess.com] public API
 
 ## Usage
 
@@ -31,7 +31,7 @@ The following is a list of variables used by most of the requests in this projec
 
 6. `countryCode`
 - Used by requests in the `countries` collection to determine which country to request data for
-- See the country section of the Chess.com [public API docs](chess.com-public-api-docs) for more information on the available country codes
+- See the country section of the Chess.com [public API docs][chess.com-public-api-docs] for more information on the available country codes
 
 #### Request Variables
 
@@ -45,9 +45,9 @@ For requests that require the a month value to be passed to the request through 
 
 ## Useful Links
 
-Check out the full Chess.com public API docs [here](chess.com-public-api-docs)
+Check out the full Chess.com public API docs [here][chess.com-public-api-docs]
 
-If you elitist and prefer Postman 😆, check out the official Chess.com Postman collections [here](chess.com-postman-schema)
+If you elitist and prefer Postman 😆, check out the official Chess.com Postman collections [here][chess.com-postman-schema]
 
 ## Licence
 
@@ -55,7 +55,7 @@ Haha, there is no licence. Use this project in whatever morally correct way you'
 
 ## Contributing
 
-Please feel free to file any issues or suggestions in the projects' [Github repo](github-repo)
+Please feel free to file any issues or suggestions in the projects' [Github repo][github-repo]
 
 [bruno.com]: https://www.usebruno.com
 [chess.com]: https://www.chess.com
