@@ -1,0 +1,15 @@
+meta {
+  name: liveMatchBoard
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/match/live/{{matchId}}/{{board}}
+  body: none
+  auth: none
+}
+
+vars:pre-request {
+  board: 1
+}

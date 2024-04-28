@@ -1,0 +1,11 @@
+meta {
+  name: currentGames
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/player/{{username}}/games
+  body: none
+  auth: none
+}

@@ -1,0 +1,11 @@
+meta {
+  name: currentGamesToMove
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/player/{{username}}/games/to-move
+  body: none
+  auth: none
+}

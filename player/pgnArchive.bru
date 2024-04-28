@@ -1,0 +1,16 @@
+meta {
+  name: pgnArchive
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{baseUrl}}/player/{{username}}/games/{{year}}/{{month}}/pgn
+  body: none
+  auth: none
+}
+
+vars:pre-request {
+  year: 2024
+  month: '01'
+}

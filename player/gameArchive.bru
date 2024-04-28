@@ -1,0 +1,16 @@
+meta {
+  name: gameArchive
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{baseUrl}}/player/{{username}}/games/{{year}}/{{month}}
+  body: none
+  auth: none
+}
+
+vars:pre-request {
+  year: 2024
+  month: '01'
+}
